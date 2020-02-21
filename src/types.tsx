@@ -17,6 +17,7 @@ import {
   NavigationScreenConfig,
   SupportedThemes,
 } from 'react-navigation';
+import { SceneRendererProps } from 'react-native-tab-view';
 
 export type NavigationTabState = NavigationState;
 

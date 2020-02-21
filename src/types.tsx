@@ -167,6 +167,11 @@ export type MaterialTabBarOptions = {
   labelStyle?: StyleProp<TextStyle>;
   contentContainerStyle?: StyleProp<ViewStyle>;
   style?: StyleProp<ViewStyle>;
+  renderIndicator?: (props: SceneRendererProps & {
+      navigationState: NavigationState;
+      getTabWidth: (i: number) => number;
+      width: 'auto' | number;
+    }) => React.ReactNode
 };
 
 export type MaterialTabBarProps = MaterialTabBarOptions & {

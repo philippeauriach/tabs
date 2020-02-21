@@ -171,7 +171,7 @@ export type MaterialTabBarOptions = {
       navigationState: NavigationState;
       getTabWidth: (i: number) => number;
       width: 'auto' | number;
-    }) => React.ReactNode
+    }) => React.ReactNode;
 };
 
 export type MaterialTabBarProps = MaterialTabBarOptions & {
